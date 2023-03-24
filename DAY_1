@@ -1,0 +1,41 @@
+// ----->basic structure of java programmm
+// 1.functions.
+// 2.classes.
+
+// ----->naming conventions in java
+// --> for classess we use pascal conventions.(harr word ka phla letter uppercase hoga)
+// --->for functions we use camelCaseConvention.( word ka phla letter lowercase hoga)
+
+// 1.AddTwoNumber-->pascal naming convention.
+// 2.addTwoNumber-->camel case naming convention.
+
+
+
+// ---->Anatomy Of a Java Program
+// Document Section----> Suggested
+// Package statement----> Optional
+// Import Statement------>Optional
+// Interface statement----->Optional
+// Class Definition------->Optional
+// Main Method Class{
+//     Main Method Definition -----> Essential
+// }
+
+//                  ---->Primitive (int, float, long , char, double, bool, byte)
+//                 |
+//  Data types-----|
+//                 | 
+//                  ----->Non Primitive
+
+public class Main {
+public static void main(String[] args){
+    //agar print krunga toh ek hi line mei dega print krkr 
+System.out.println("The sum of these numbers is");    
+    int a = 5;
+    int b = 8;
+    int c = 6;
+    int sum = a + b + c;
+    System.out.println(sum);
+}
+
+}
