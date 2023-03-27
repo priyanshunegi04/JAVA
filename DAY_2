@@ -8,7 +8,8 @@ public class Main {
     }
 }
 
-//datatypes------>
+
+<---------------------Datatypes------>
 public class Main {
     public static void main(String[] args){
         //primitive datatypes
@@ -23,5 +24,39 @@ public class Main {
     //are of type double, if you want to store them in float we have to add f.
 }
 
+<---------------------Typecasting in Java------------------------------>
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] arg) {
+//       Scanner input = new Scanner(System.in);
+//       int a = input.nextInt();
+//       System.out.println(a);
 
+//       Scanner input = new Scanner(System.in);
+//       int  roll_number = input.nextInt();
+//        System.out.println("Your roll-number is "+ roll_number );
+
+//typecasting
+      int num = (int) (65.4);
+      System.out.println(num);
+
+      //automatic type promotion in expression
+      int a = 257;
+      byte b = (byte) (a); // 257 % 256 = 1
+      System.out.println(b);
+
+      byte z = 40;
+      byte x = 50;
+      byte y = 100;
+      int d = (z * x) / y;
+      System.out.println(d);
+      //whenver u do a byte evaluation it converts it into integer.
+
+        int number = 'A';
+      System.out.println(number); //it will give ascii value of A
+  //all the smaller ones are converted into bigger ones.
+  }
+  //for---- loop and while loop are same
+  //if and else comdition are same as cpp language.
+}
 
